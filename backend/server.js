@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/entries', entryRouter);
 
 app.get('/',(req,res)=>{
-	res.send('Hello');
+	res.send('Daily Food Log');
 });
 
 app.listen(port, ()=> console.log(`App listening on port: ${port}`));
